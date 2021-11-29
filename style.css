@@ -1,0 +1,121 @@
+
+* {/*star selects all elements*/
+  box-sizing: border-box;
+  font-family: 'Press Start 2P';
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://wallpaperaccess.com/full/2825704.gif");
+  background-repeat:no-repeat; 
+  background-size: cover;
+}
+td {
+  height: 150px;
+  width: 150px;
+  background-color: lightgray;
+  border: 5px solid black;
+}
+.board{
+  background-color: black;
+  border-radius: 5%;
+  border: 5px solid black;
+}
+.cell{
+  text-align: center;
+  border-radius: 20%;
+  font-size: 80px;
+}
+.cell:hover{
+  background-color:black;
+}
+ol{
+  display:none;
+}
+.title{
+  display: flex;
+  color: blue;
+  font-size: 70px;
+  margin-top:20px;
+}
+.Tic{
+  text-shadow: 2px 2px yellow;
+  margin-right: 20px;
+}
+.Tac{
+  color:yellow;
+  text-shadow: 2px 2px blue;
+  margin-right: 20px;
+}
+.Toe{
+  text-shadow: 2px 2px yellow;
+  margin-right: 20px;
+}
+
+button{
+  font-size: 30px;
+  border-radius: 10px;
+}
+form{
+  font-size:20px;
+  padding-bottom:10px;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  color:yellow;
+  text-shadow: 2px 2px blue;
+  margin-top: -30px;
+}
+#playerTurn{
+  font-size: 25px;
+  color:yellow;
+  text-shadow: 2px 2px blue;
+  margin-top:30px;
+}
+#text{
+  font-size: 30px;
+  color:yellow;
+  text-shadow: 2px 2px blue;
+  margin-bottom:30px;
+}
+#instructions{
+  color:yellow;
+  text-shadow: 2px 2px blue;
+}
+#playerX{
+  margin: 20px;
+  padding:10px;
+  border-radius: 10px;
+}
+#playerO{
+  margin: 20px;
+  padding:10px;
+  border-radius: 10px;
+}
+button:hover{
+cursor:pointer;
+}
+#start{
+margin:10px;
+}
+#resetButton{
+  margin:10px;
+}
+#infoButton{
+  margin:10px;
+}
+li{
+  margin:10px;
+}
+embed{
+  height:70px;
+  width:70px;
+  align-self: flex-end;
+}
+input{
+  font-size:15px;
+  caret-color: red;
+}
+input:hover{
+  cursor:pointer;
+}
